@@ -9,6 +9,4 @@ jobs:
     - name: checkout code
       uses: actions/checkout@v2
     - name: list the dire
-      run: ls -ltr; mkdir test_folder; ls -ltr 
-	   
-			
+      run: ls -ltr; mkdir test_folder; ls -ltr;
